@@ -1,6 +1,6 @@
 # Projet 2 - Participez à un concours dur la SmartCity
 
-![](https://media.istockphoto.com/id/966446232/fr/vectoriel/concept-smart-ville.jpg?s=612x612&w=0&k=20&c=q_BTvwTgwnFQpS1njGFhLZIAWyyBD69qYjWNCppDdCA=)
+<img src="https://media.istockphoto.com/id/966446232/fr/vectoriel/concept-smart-ville.jpg?s=612x612&w=0&k=20&c=q_BTvwTgwnFQpS1njGFhLZIAWyyBD69qYjWNCppDdCA=" alt="Smart City" style="width: 100%;">
 
 Dans ce challenge, ouvert à tous, vous allez réaliser une analyse exploratoire avec un jeu de données portant sur les arbres de la ville de Paris, dans le cadre du programme “Végétalisons la ville”.
 
