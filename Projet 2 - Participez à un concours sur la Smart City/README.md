@@ -1,4 +1,4 @@
-# Projet 2 - Participez à un concours dur la SmartCity
+# Projet 2 - Participez à un concours sur la SmartCity
 
 <img src="https://media.istockphoto.com/id/966446232/fr/vectoriel/concept-smart-ville.jpg?s=612x612&w=0&k=20&c=q_BTvwTgwnFQpS1njGFhLZIAWyyBD69qYjWNCppDdCA=" alt="Smart City" style="width: 100%;">
 
