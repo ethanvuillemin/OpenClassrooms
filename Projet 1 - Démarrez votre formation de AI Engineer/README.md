@@ -2,7 +2,7 @@
 
 Le projet 1 est le point de départ de votre parcours de formation chez OpenClassrooms. Son objectif principal est de vous aider à démarrer votre apprentissage et à poser les bases pour la suite de votre formation. Voici une présentation générale du projet 1 et ses objectifs
 
-<img src="https://englishrumbo.wordpress.com/wp-content/uploads/2017/05/starting-point.jpg?w=704" alt="Smart City" style="width: 100%;">
+<img src="https://englishrumbo.wordpress.com/wp-content/uploads/2017/05/starting-point.jpg?w=704" alt="images descriptive du chapitre" style="width: 100%;">
 
 
 
@@ -14,13 +14,13 @@ Le projet 1 est le point de départ de votre parcours de formation chez OpenClas
 - **Se familiariser avec le fonctionnement de votre formation chez OpenClassrooms** 
 
 Vous allez découvrir le modèle pédagogique d'OpenClassrooms, comprendre comment la formation est structurée en cours en ligne et en projets pratiques, ainsi que le rôle de votre mentor.
-
-<img src="./images/image.png" alt="Smart City" style="width: 100%;">
+<img src="./images/image.png" alt="images descriptive du chapitre" style="width: 100%;">
 
 
 - **Suivre le cours "Optimisez votre apprentissage avec l'Intelligence Artificielle"** 
 
 Vous allez acquérir les bases sur l'Intelligence Artificielle (IA) et son utilité dans votre parcours professionnel. Ce cours vous aidera à améliorer votre apprentissage grâce à des techniques spécifiques.
+<img src="./images/image0.png" alt="images descriptive du chapitre" style="width: 100%;">
 
 
 - **Compléter votre [fiche de début de formation](./Vuillemin_Ethan_1_092024.pdf)**
@@ -54,8 +54,7 @@ Vous aurez une vue d'ensemble des projets que vous réaliserez tout au long de v
 - **Définir des dates cibles de soutenance de vos projets** 
 
 En collaboration avec votre mentor, vous établirez des échéances pour chaque projet afin de vous aider à rester organisé et à suivre un calendrier réaliste.
-
-<img src="./images/image-5.png" alt="Smart City" style="width: 100%;">
+<img src="./images/image-5.png" alt="images descriptive du chapitre" style="width: 100%;">
 
 
 
