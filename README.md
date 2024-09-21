@@ -24,10 +24,3 @@ Participer à l'organisation et au pilotage d'un projet de data science / IA
 
 ## Quelles sont vos opportunités de carrières et perspectives d’emploi à la suite de cette formation diplômante ?
 En suivant notre formation en ligne, vous pourrez exercer de nombreux métiers, dont ceux de AI engineer, de data engineer, ou encore de deep learning engineer, ou encore data architect.
-
-Les salaires du marché pour le poste de AI engineer :
-
-- **45 000 € à 55 000 €** brut annuel pour un profil débutant
-- **55 000 € à 80 000 €** brut annuel pour un profil confirmé
-
-Cette fourchette peut toutefois varier selon la taille d’entreprise et la région.
