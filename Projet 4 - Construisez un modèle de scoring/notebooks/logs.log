@@ -1,0 +1,129 @@
+2024-11-29 20:52:30,164:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 20:54:57,578:WARNING:c:\Users\vuill\OneDrive\Documents\GitHub\OpenClassrooms\Projet 4 - Construisez un modèle de scoring\notebooks\venv_projet_4\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:112: UserWarning: Features [12 32] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+
+2024-11-29 20:54:57,578:WARNING:c:\Users\vuill\OneDrive\Documents\GitHub\OpenClassrooms\Projet 4 - Construisez un modèle de scoring\notebooks\venv_projet_4\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:113: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+
+2024-11-29 20:56:17,094:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 20:57:49,832:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 20:59:55,740:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:04:04,097:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:05:24,016:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:07:42,389:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:10:03,633:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:13:49,781:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:15:52,430:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:17:53,513:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:20:29,242:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:26:21,620:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:51:29,158:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:53:57,550:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 21:58:16,962:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\349809200.py:20: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['pca_amount'] = pca.fit_transform(amount_scaled)
+
+2024-11-29 21:59:54,635:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 22:02:18,412:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-11-29 22:18:22,831:WARNING:C:\Users\vuill\AppData\Local\Temp\ipykernel_10024\3297607740.py:11: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=correlations.values, y=correlations.index, palette='viridis')
+
+2024-12-02 18:43:24,716:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-02 18:43:24,716:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-02 18:43:24,717:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-12-02 18:43:24,717:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
