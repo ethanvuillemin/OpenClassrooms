@@ -1,0 +1,18 @@
+# Make sure to have python 3.9.* first
+
+# Core libraries
+pandas==1.5.3
+numpy==1.23.5
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+
+# TensorFlow and Keras
+tensorflow==2.10.1  # GPU support available on Windows for this version
+keras==2.10.0       # Matches TensorFlow's built-in Keras version
+
+# Image processing
+Pillow==9.5.0       # Required for image loading and manipulation
+
+# Glob and OS utilities (no specific version required)
+glob2==0.7          # Optional, but ensures compatibility with glob patterns
