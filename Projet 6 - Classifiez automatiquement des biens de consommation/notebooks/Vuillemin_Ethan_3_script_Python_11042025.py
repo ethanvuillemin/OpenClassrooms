@@ -2,6 +2,14 @@
 import requests
 import csv
 
+# Documentation:
+# https://ensip.gitlab.io/pages-info/ressources/transverse/tuto_apiweb/#openfoodfacts
+# https://fr.openfoodfacts.org/data
+
+# Exemple de requetes:
+# https://world.openfoodfacts.org/cgi/search.pl?search_terms=champagne&search_simple=1&action=process&json=1
+# https://world.openfoodfacts.org/cgi/search.pl?search_terms=champignon&page_size=10&json=1
+
 # Setup les parms de la query
 url = "https://world.openfoodfacts.org/cgi/search.pl"
 params = {
