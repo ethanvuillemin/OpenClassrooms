@@ -1,0 +1,6 @@
+fastapi
+"fastapi['standard']"
+uvicorn
+tensorflow
+scikit-learn
+numpy
