@@ -1,0 +1,5 @@
+# Ne pas convertir les notebooks Jupyter
+*.ipynb eol=lf
+
+# Pour tous les autres fichiers texte
+* text=auto

@@ -1,4 +1,4 @@
-from fastapi import FastAPI  # type: ignore
+from fastapi import FastAPI, HTTPException
 import logging
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
@@ -8,37 +8,31 @@ import os
 
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
+# Charger le modèle et le tokenizer
 model = load_model("./lstm_model_keras.keras")
-
 with open("tokenizer.pickle", "rb") as t:
     tokenizer = pickle.load(t)
 
-
 app = FastAPI()
 
-
 @app.get("/predict")
-async def simple_prediction(sentence):
-    """Fait une prediction sur une phrase
-
-    Args:
-        sentence (string): The sentence you want to predict the sentiment
-    Returns:
-        json: A json with the sentence and the prediction or the error message
-    """
-
+async def simple_prediction(sentence: str):
+    """Fait une prédiction sur une phrase"""
     try:
         clean_sentence = tweet_cleaning(sentence)
         sample_seq = tokenizer.texts_to_sequences([clean_sentence])
         sample_pad = pad_sequences(sample_seq, maxlen=10_000)
 
-        pred = model.predict(sample_pad)
+        pred_value = float(model.predict(sample_pad)[0][0])
 
-        if pred[0][0] > 0.5:
-            return {"sentence": sentence, "sentiment": "Positif", 'score': pred}
+        if pred_value > 0.5:
+            return {"sentence": sentence, "sentiment": "Positif", "score": round(pred_value, 2)}
         else:
-            return {"sentence": sentence, "sentiment": "Negatif", 'score': pred}
+            return {"sentence": sentence, "sentiment": "Negatif", "score": round(pred_value, 2)}
 
     except Exception as error:
-        logging.error("An Error occured during the prediction: ", error)
-        return {"sentence": sentence, "error": "Consult logs"}
+        logging.error(f"Erreur lors de la prédiction : {error}")
+        raise HTTPException(
+            status_code=500,
+            detail={"sentence": sentence, "error": "Consult logs"}
+        )

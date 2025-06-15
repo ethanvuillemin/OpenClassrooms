@@ -1,3 +1,6 @@
 Nouveau dossier compressé.zip
 data
 .venv_p7
+__pycache__/
+*.pyc
+Réalisez_une_analyse_de_sentiments_grâce_au_Deep_Learning_vuillemin_ethan
