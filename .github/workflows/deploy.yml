@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r Projet 7 - Réalisez une analyse de sentiments grâce au Deep Learning\prototype\api\requirements.txt
 
     - name: Run tests
       run: |
@@ -34,6 +34,8 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd "Projet 7 - Réalisez une analyse de sentiments grâce au Deep Learning\prototype\api"
+          mkdir -p /home/Ethan/AirParadis
+          cp -r $GITHUB_WORKSPACE/* /home/Ethan/AirParadis/
+          cd /home/Ethan/AirParadis
           git pull origin main
           sudo systemctl restart p7.service
