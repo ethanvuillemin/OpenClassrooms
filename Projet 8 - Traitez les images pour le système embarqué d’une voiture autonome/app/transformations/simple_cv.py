@@ -25,3 +25,4 @@ def apply_transformation(image, choice):
         return blur_image(image)
     elif choice == "Invert":
         return invert_image(image)
+
