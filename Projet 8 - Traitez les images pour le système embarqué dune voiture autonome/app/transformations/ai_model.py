@@ -1,6 +1,6 @@
 import requests
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 import io
 from skimage.transform import resize
 
@@ -44,13 +44,16 @@ def call_api_and_overlay_mask(image):
             7: (0, 255, 255)   # Vehicle: Cyan
         }
 
-        # Superposer le masque sur l'image
-        overlayed_image = image.copy()
+        # Créer une nouvelle image avec opacité pour le masque
+        overlayed_image = image.copy().astype(float)
+
         for class_id, color in class_colors.items():
-            overlayed_image[mask_array_resized == class_id] = color
+            # Appliquer l'opacité de 0.65
+            overlay_color = np.array(color) * 0.55
+            overlayed_image[mask_array_resized == class_id] = overlay_color
 
         # Convertir le tableau numpy en une image PIL
-        overlayed_image_pil = Image.fromarray(overlayed_image)
+        overlayed_image_pil = Image.fromarray(overlayed_image.astype('uint8'))
 
         return overlayed_image_pil
     else:

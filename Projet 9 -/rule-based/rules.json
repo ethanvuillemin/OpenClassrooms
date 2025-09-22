@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "variable_assignment",
+      "patterns": ["comment déclarer une variable", "syntaxe variable python", "affectation variable"],
+      "response": "En Python, aucune déclaration n'est nécessaire. Il suffit d'assigner une valeur:\n```python\nx = 5\nnom = \"Python\"\n```\nLe type est déterminé automatiquement (typage dynamique)."
+    },
+    {
+      "tag": "string_formatting",
+      "patterns": ["comment formater une chaîne", "f-string python", "formatage de texte"],
+      "response": "Utilisez les f-strings (Python 3.6+) pour une syntaxe concise:\n```python\nnom = \"Alice\"\nage = 30\nprint(f\"Bonjour {nom}, vous avez {age} ans\")\n```\nOu la méthode `.format()`:\n```python\n\"{} + {} = {}\".format(2, 3, 5)\n```"
+    },
+    {
+      "tag": "list_comprehension",
+      "patterns": ["qu'est-ce qu'une liste en compréhension", "syntaxe liste compréhension", "créer liste python"],
+      "response": "Permet de créer des listes de manière concise:\n```python\n[ x**2 for x in range(5) ]  # [0, 1, 4, 9, 16]\n```\nAvec condition:\n```python\n[ x for x in range(10) if x % 2 == 0 ]  # [0, 2, 4, 6, 8]\n```"
+    },
+    {
+      "tag": "function_definition",
+      "patterns": ["comment définir une fonction", "syntaxe fonction python", "déclarer fonction"],
+      "response": "Utilisez le mot-clé `def`:\n```python\ndef saluer(nom):\n    \"\"\"Renvoie un message de salutation\"\"\"\n    return f\"Bonjour {nom}\"\n```\nLes paramètres peuvent avoir des valeurs par défaut:\n```python\ndef dire_bonjour(nom=\"Visiteur\"):\n    print(f\"Hello {nom}\")\n```"
+    },
+    {
+      "tag": "error_handling",
+      "patterns": ["traiter les exceptions python", "try except syntaxe", "gestion erreur"],
+      "response": "Utilisez `try-except` pour gérer les erreurs:\n```python\ntry:\n    resultat = 10 / 0\nexcept ZeroDivisionError as e:\n    print(f\"Erreur: {e}\")\nfinally:\n    print(\"Nettoyage obligatoire\")\n```\nPour lever une exception:\n```python\nraise ValueError(\"Valeur invalide\")\n```"
+    },
+    {
+      "tag": "file_handling",
+      "patterns": ["lire un fichier python", "écrire dans un fichier", "manipuler fichiers"],
+      "response": "Utilisez `with` pour une gestion automatique des ressources:\n```python\n# Lire un fichier\nwith open('data.txt', 'r') as f:\n    contenu = f.read()\n\n# Écrire dans un fichier\nwith open('output.txt', 'w') as f:\n    f.write(\"Contenu à sauvegarder\")\n```\nModes courants: 'r' (lecture), 'w' (écriture), 'a' (ajout), 'b' (binaire)."
+    },
+    {
+      "tag": "class_definition",
+      "patterns": ["créer une classe python", "syntaxe classe", "programmation orientée objet"],
+      "response": "Définition de classe basique:\n```python\nclass Chien:\n    def __init__(self, nom):\n        self.nom = nom\n\n    def aboyer(self):\n        return f\"{self.nom} dit Woof!\"\n```\nHéritage:\n```python\nclass Labrador(Chien):\n    def couleur(self):\n        return \"jaune\"\n```"
+    },
+    {
+      "tag": "module_import",
+      "patterns": ["importer un module", "utiliser des bibliothèques", "import python"],
+      "response": "Différentes façons d'importer:\n```python\nimport math\nfrom math import sqrt\nfrom math import sqrt as racine_carree\n\n# Pour importer un module personnalisé\nimport mon_module\n```"
+    },
+    {
+      "tag": "loop_control",
+      "patterns": ["boucle for python", "itérer sur une séquence", "structure de boucle"],
+      "response": "Boucle `for`:\n```python\nfor lettre in \"Python\":\n    print(lettre)\n\nfor i in range(5):\n    print(i)\n```\nUtilisez `break`, `continue`, et `else`:\n```python\nfor x in [1,2,3]:\n    if x == 2:\n        continue\n    print(x)\nelse:\n    print(\"Fin de boucle\")\n```"
+    },
+    {
+      "tag": "data_types",
+      "patterns": ["types de données python", "types primitifs", "structures de données"],
+      "response": "Types principaux:\n```python\n# Nombre\nx = 5  # int\ny = 3.14  # float\n\n# Chaîne\ntexte = \"Bonjour\"\n\n# Booléen\nvrai = True\nfaux = False\n\n# Séquences\nliste = [1, 2, 3]  # mutable\ntuple = (1, 2, 3)  # immutable\n\n# Ensembles et dictionnaires\nensemble = {1, 2, 3}\ndico = {\"nom\": \"Alice\", \"age\": 30}\n```"
+    },
+    {
+      "tag": "virtual_environment",
+      "patterns": ["créer un environnement virtuel", "isoler dépendances python", "venv"],
+      "response": "Création et activation:\n```bash\n# Windows\npython -m venv env\nenv\\Scripts\\activate.bat\n\n# Unix/macOS\npython3 -m venv env\nsource env/bin/activate\n\n# Installation de packages\npip install requests\n```\nPour sauvegarder les dépendances:\n```bash\npip freeze > requirements.txt\n```"
+    },
+    {
+      "tag": "decorator",
+      "patterns": ["qu'est-ce qu'un décorateur", "ajouter des fonctionnalités à une fonction", "syntaxe décorateur"],
+      "response": "Fonction qui modifie une autre fonction:\n```python\ndef decorateur(fonction):\n    def wrapper():\n        print(\"Avant la fonction\")\n        fonction()\n        print(\"Après la fonction\")\n    return wrapper\n\n@decorateur\ndef dire_bonjour():\n    print(\"Bonjour\")\n\n# Exécution\n> dire_bonjour()\nAvant la fonction\nBonjour\nAprès la fonction\n```"
+    },
+    {
+      "tag": "json_handling",
+      "patterns": ["manipuler du JSON", "encoder/decoder JSON", "conversion python json"],
+      "response": "Utilisez le module `json`:\n```python\nimport json\n\n# Convertir en JSON\ndonnees = {\"nom\": \"Alice\", \"age\": 30}\njson_str = json.dumps(donnees, indent=2)\n\n# Convertir depuis JSON\njson_str = '{\"nom\": \"Bob\", \"age\": 25}'\ndict_python = json.loads(json_str)\n\n# Lire depuis un fichier\nwith open('data.json', 'r') as f:\n    data = json.load(f)\n```"
+    },
+    {
+      "tag": "datetime",
+      "patterns": ["manipuler dates et heures", "module datetime", "traitement date python"],
+      "response": "Utilisation du module `datetime`:\n```python\nfrom datetime import datetime\n\n# Obtenir la date actuelle\nmaintenant = datetime.now()\nprint(f\"Date: {maintenant}\")\n\n# Formater une date\nprint(maintenant.strftime(\"%d/%m/%Y %H:%M\"))\n\n# Créer une date spécifique\nfrom datetime import datetime\ndate = datetime(2025, 1, 1, 12, 0)\n```"
+    },
+    {
+      "tag": "regex",
+      "patterns": ["expressions régulières", "recherche de motifs", "module re"],
+      "response": "Utilisation du module `re`:\n```python\nimport re\n\n# Recherche de motif\ntexte = \"Python 3.10\"\nnombres = re.findall(r'\\d+', texte)  # ['3', '10']\n\n# Remplacement\ntexte_modifie = re.sub(r'\\d+', 'X', texte)  # \"Python X.X\"\n\n# Division de chaîne\ntokens = re.split(r'\\s+', \"un deux trois\")  # ['un', 'deux', 'trois']\n```"
+    }
+  ]
+}
