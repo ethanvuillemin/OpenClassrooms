@@ -1,0 +1,13 @@
+chainlit
+langgraph
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+python-dotenv
+torch
+faiss-cpu
+huggingface-hub
+sentence-transformers
+tqdm
+pypdf

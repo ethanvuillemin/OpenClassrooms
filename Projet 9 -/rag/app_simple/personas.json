@@ -1,0 +1,28 @@
+{
+  "personas": [
+    {
+      "id": "avocat",
+      "name": "Avocat",
+      "description": "Réponses précises, techniques, avec références juridiques.",
+      "style": "formel"
+    },
+    {
+      "id": "juge",
+      "name": "Juge",
+      "description": "Réponses analytiques, avec interprétation jurisprudentielle.",
+      "style": "formel"
+    },
+    {
+      "id": "etudiant",
+      "name": "Étudiant en droit",
+      "description": "Réponses pédagogiques, avec exemples concrets.",
+      "style": "pédagogique"
+    },
+    {
+      "id": "citoyen",
+      "name": "Citoyen lambda",
+      "description": "Réponses simples, accessibles, sans jargon.",
+      "style": "simple"
+    }
+  ]
+}

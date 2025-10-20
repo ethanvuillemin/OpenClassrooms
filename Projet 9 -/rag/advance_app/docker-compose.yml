@@ -1,0 +1,27 @@
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8070:8000"
+    environment:
+      - VECTORSTORE=./vectorstore/faiss_index
+      - MISTRAL_API_KEY=rHns5G9Ha7dIcEmsTHcrxhFe3hSqEPCW
+      - OPENAI_API_BASE=https://api.mistral.ai/v1
+      - EMBEDDING_MODEL="sentence-transformers/all-MiniLM-L6-v2"
+    volumes:
+      - ./vectorstore:/app/vectorstore
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  vectorstore_data:
+    driver: local
+  app_data:
+    driver: local
